@@ -12,15 +12,16 @@
   background-color: aqua; 
 }
 
-.s-wrapper video{
+/* .s-wrapper video{
   position: fixed;
   width: 100%;
 
-}
+} */
 
-.s-wrapper .s-left-column {
+.s-wrapper .s-left-colum {
   width: 100px;
   height: 100%;
+  background-color: gray;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,37 +29,123 @@
   padding-right: 50px;
   left: 0;
   top: 0;
-  z-index: 1;
+  z-index: 1;  
 }
 
 .s-wrapper .s-main-content{
   height: 100%;
   width: 100%;
-  padding-left: 130px;
-  position: relative;
+  padding-left: 150px;
+  background-color: gray;
 }
 
-.s-wrapper .s-main-content__top {
-  height: 80vh;
+.s-wrapper .s-main-content__top{
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.s-wrapper .s-main-content__bottom{
-  height: 20vh;
+.s-wrapper .s-gallery ul{
+  width: 300px;
+  height: 100%;
+  background-color: gray;
   display: flex;
+  justify-content:center;
   flex-direction: column;
-  justify-content: flex-end;
 }
 
 .s-wrapper .s-main-content .s-logo img{
-  margin-top: 50px;
-  margin-left: 0;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 0 10px;
+  margin-bottom: px;
+  padding-left: 20vh;
+  height: 20vh;
+}
+
+.navigator {
+  height: 80vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.navigator ul{
+  z-index: 1;
+}
+
+.navigator ul li {
+  margin: 60px 0;
+}
+
+.navigator ul li:first-child {
+  margin-top: 0;
+}
+
+.navigator ul li:last-child {
+  margin-bottom: 0;
+}
+
+.navigator ul li a{
+  color: white;
+  border: solid 2px white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigator::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+  z-index: 0;
+}
+
+.navigator ul li a:active{
+  color: black;
+  background-color: white;
+}
+
+.navigator .navigator__icon{
+  position: absolute;
+  top: 25px;
+  height: 15px;
+  align-items: center;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+
 }
 
 .s-wrapper .s-main-content__top .s-description{
+  background-color: rgba(0,0,0,.7);
+  max-width: 80%;
+  padding: 10px;
+  border-radius: 10px;
+  }
+
+  .s-main-content__top .s-description__text{
+    /* background-color: rgba(0,0,0,.7); */
+    border-radius: 20px;
+    max-width: 80%;
+    padding-top: 30px;
+    padding-left: 15px;
+    color: white;
+    line-height: 200%;
+    font-size: 1.5vh;
+
+  }
+  
+/* .s-wrapper .s-main-content__top .s-description{
   background-color: rgba(0,0,0,.7);
   max-width: 50%;
   padding: 20px;
@@ -97,4 +184,4 @@
 .s-spiderman-01-03 {
   background-image: url('../images/spiderman-tobey/movie-03/background.png');
   background-size: cover;
-}
+} */ 
