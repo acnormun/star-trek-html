@@ -8,8 +8,8 @@
 .s-wrapper {
   display: flex;
   height: 100vh;
-  flex-flow: row nowrap; 
-  background-color: aqua; 
+  flex-flow: row nowrap;
+  background-color: aqua;
 }
 
 /* .s-wrapper video{
@@ -29,33 +29,33 @@
   padding-right: 50px;
   left: 0;
   top: 0;
-  z-index: 1;  
+  z-index: 1;
 }
 
-.s-wrapper .s-main-content{
+.s-wrapper .s-main-content {
   height: 100%;
   width: 100%;
   padding-left: 150px;
   background-color: gray;
 }
 
-.s-wrapper .s-main-content__top{
+.s-wrapper .s-main-content__top {
   height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-.s-wrapper .s-gallery ul{
+.s-wrapper .s-gallery ul {
   width: 300px;
   height: 100%;
   background-color: gray;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-direction: column;
 }
 
-.s-wrapper .s-main-content .s-logo img{
+.s-wrapper .s-main-content .s-logo img {
   margin-top: 10px;
   margin-left: 0 10px;
   margin-bottom: px;
@@ -65,14 +65,14 @@
 
 .navigator {
   height: 80vh;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   position: relative;
 }
 
-.navigator ul{
+.navigator ul {
   z-index: 1;
 }
 
@@ -88,7 +88,7 @@
   margin-bottom: 0;
 }
 
-.navigator ul li a{
+.navigator ul li a {
   color: white;
   border: solid 2px white;
   width: 45px;
@@ -100,7 +100,7 @@
   justify-content: center;
 }
 
-.navigator::before{
+.navigator::before {
   content: "";
   position: absolute;
   top: 0;
@@ -110,78 +110,71 @@
   z-index: 0;
 }
 
-.navigator ul li a:active{
+.navigator ul li a:active {
   color: black;
   background-color: white;
 }
 
-.navigator .navigator__icon{
+.navigator .navigator__icon {
   position: absolute;
   top: 25px;
   height: 15px;
   align-items: center;
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
 
 }
 
-.s-wrapper .s-main-content__top .s-description{
-  background-color: rgba(0,0,0,.7);
+.s-wrapper .s-main-content__top .s-description {
+  background-color: rgba(0, 0, 0, .7);
   max-width: 80%;
   padding: 10px;
   border-radius: 10px;
-  }
-
-  .s-main-content__top .s-description__text{
-    /* background-color: rgba(0,0,0,.7); */
-    border-radius: 20px;
-    max-width: 80%;
-    padding-top: 30px;
-    padding-left: 15px;
-    color: white;
-    line-height: 200%;
-    font-size: 1.5vh;
-
-  }
-  
-/* .s-wrapper .s-main-content__top .s-description{
-  background-color: rgba(0,0,0,.7);
-  max-width: 50%;
-  padding: 20px;
-  border-radius: 10px;
 }
 
-.s-wrapper .s-main-content__top .s-description .s-description__text p{
+.s-main-content__top .s-description__text {
+  /* background-color: rgba(0,0,0,.7); */
+  border-radius: 20px;
+  max-width: 80%;
+  padding-top: 30px;
+  padding-left: 15px;
   color: white;
-  line-height: 170%;
+  line-height: 200%;
+  font-size: 1.5vh;
+
 }
 
-.s-wrapper .s-main-content__top .s-description .pills{
-  margin-bottom: 20px;
+.s-main-content .s-main-content__trip {
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.s-wrapper .s-main-content .s-links{
-  padding: 20px;
-  padding-left: 0;
-}
-
-.s-wrapper .s-main-content .s-links ul{
+.s-main-content__trip .s-main-content__trip__character {
   display: flex;
-  flex-direction: row;
+  margin: .5rem;
+  padding: 0;
+  border-radius: 1rem;
+  flex-direction: column;
 }
 
-.s-spiderman-01-01 {
-  background-image: url('../images/spiderman-tobey/movie-01/background.png');
-  background-size:cover;
+@media screen and (min-width: 365px) {
+  .s-main-content__trip .s-main-content__trip__character {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-.s-spiderman-01-02 {
-  background-image: url('../images/spiderman-tobey/movie-02/background.png');
-  background-size: cover;
+@media screen and (min-width: 720px) {
+  .s-main-content__trip .s-main-content__trip__character {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
-.s-spiderman-01-03 {
-  background-image: url('../images/spiderman-tobey/movie-03/background.png');
-  background-size: cover;
-} */ 
+@media screen and (min-width: 992px) {
+  .s-main-content__trip .s-main-content__trip__character {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
