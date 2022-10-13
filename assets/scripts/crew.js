@@ -1,6 +1,6 @@
 function updateCrewData(crewData){
-    const trip = document.getElementById('stdata.crew')
-    trip.innerHTML = crewData.trip.map(crew => {
+    const trip = document.getElementById('stdata.tripulation')
+    trip.innerHTML = crewData.stdata.tripulation.map(crew => {
 
         return `
             <li>
