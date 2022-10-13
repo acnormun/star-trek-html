@@ -1,6 +1,6 @@
 async function fetchCrewData() {
-    const url = 'https://raw.githubusercontent.com/acnormun/portfolio/main/assets/js/profile.json';
+    const url = 'https://raw.githubusercontent.com/acnormun/star-trek/main/assets/data/stdata.json';
     const response = await fetch(url)
-    const profileData = await response.json()
-    return profileData
+    const crewData = await response.json()
+    return crewData
 }
