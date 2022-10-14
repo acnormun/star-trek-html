@@ -1,16 +1,16 @@
 function updateCrewData(crewData){
-    const trip = document.getElementById('stdata.tripulation')
-    trip.innerHTML = crewData.stdata.tripulation.map(crew => {
+    const tripulation = document.getElementById('stdata.tripulation')
+    tripulation.innerHTML = crewData.tripulation.map(crew => {
 
         return `
-            <li>
-                <h2> ${crew.name}</h2>
-                <img src="${crew.photo}" alt="${crew.name}">
-            </li>
+            <div class="crew-list">
+                <button type="show-crew" class="btn" onclick="openPopup()"> ${crew.name}</button>
+                <img src="${crew.photo}" alt="${crew.name}" class"stdata.crew">
+            </div>
         `
     }).join('')
-
 }
+
 (async () => {
     const crewData = await fetchCrewData()
     updateCrewData(crewData)

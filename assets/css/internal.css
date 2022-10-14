@@ -11,13 +11,6 @@
   flex-flow: row nowrap;
   background-color: aqua;
 }
-
-/* .s-wrapper video{
-  position: fixed;
-  width: 100%;
-
-} */
-
 .s-wrapper .s-left-colum {
   width: 100px;
   height: 100%;
