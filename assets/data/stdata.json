@@ -22,10 +22,19 @@
             "id": "3",
             "name": "Nyota Uhura",
             "origin": "Lake Simbi Nyaima, Kenya, Earth",
-            "title": "Lieutenant / Commander / Captain",
+            "title": "Captain / Fleet Captain / Admiral (Alternate Universe)",
             "position" : "Linguistics / Cryptographer / Philologist",
             "race": "Human",
             "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg/220px-Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Christopher Pike",
+            "origin": "California, United States, Earth",
+            "title": "Lieutenant / Commander / Captain",
+            "position" : "Commanding officer",
+            "race": "Human",
+            "photo": "https://en.wikipedia.org/wiki/File:Christopher_pike.jpg"
         }
     ]
 }

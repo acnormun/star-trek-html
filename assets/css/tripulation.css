@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.show-crew:hover{
+    background-color: gray;
+}
+
 .popup{
     display: flex;
     flex-direction: column;
@@ -67,6 +71,7 @@
     left:30%;
     border: solid 3px black;
     border-radius: 20px;
+    z-index: 10;
 }
 
 .popup .top{

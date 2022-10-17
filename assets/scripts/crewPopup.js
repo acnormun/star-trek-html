@@ -7,6 +7,10 @@ function getID(id) {
                 if (crew.id == id) {
                     const popup = document.getElementById('popup')
                     popup.classList.remove('hidden')
+
+                    const overlay = document.getElementById('overlay')
+                    overlay.classList.remove('hidden')
+
                     return `<div class="top">
                                 <div>${crew.name}</div>
                                 <button  id="closePopup" onClick = "closePopup()">&times;</button>
@@ -19,6 +23,8 @@ function getID(id) {
                                     <ul>
                                         <li> Nome: ${crew.name} </li>
                                         <li> Origem: ${crew.origin} </li>
+                                        <li> Título: ${crew.title} </li>
+                                        <li> Posição: ${crew.position} </li>
                                 </div>
                             </div>`
                 }
@@ -31,5 +37,8 @@ function closePopup(){
 
     const popup = document.getElementById('popup')
     popup.classList.add('hidden')
-    
+
+    const overlay = document.getElementById('overlay')
+    overlay.classList.add('hidden')
+
 }
