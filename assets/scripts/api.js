@@ -4,3 +4,4 @@ async function fetchCrewData() {
     const crewData = await response.json()
     return crewData
 }
+
