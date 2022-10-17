@@ -27,8 +27,7 @@
 
 .st-name{
     display: block;
-    margin-left: 20%;
-    margin-right: auto;
+    padding: none;
 }
 
 
@@ -59,12 +58,37 @@
 }
 
 .popup{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     background-color: white;
-    width: 25%;
-    height: 50%;
-    left: 30%;
+    max-width: 700px;
     top: 30%;
+    left:30%;
+    border: solid 3px black;
+    border-radius: 20px;
+}
+
+.popup .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: larger;
+    padding: 20px
+}
+
+.popup .content{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.popup .content li{
+    padding: 5px;
+    font-size: large;
+    font-weight: 300;
+
 }
 
 .overlay{
