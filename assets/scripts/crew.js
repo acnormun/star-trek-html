@@ -4,7 +4,7 @@ function updateCrewData(crewData){
 
         return `
             <div class="crew-list">
-                <button type="show-crew" class="btn" onclick="openPopup()"> ${crew.name}</button>
+                <button class="show-crew" onClick="crewPopup(${crew.name})"> ${crew.name}</button>
                 <img src="${crew.photo}" alt="${crew.name}" class"stdata.crew">
             </div>
         `
