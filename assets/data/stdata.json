@@ -35,6 +35,42 @@
             "position" : "Commanding officer",
             "race": "Human",
             "photo": "https://upload.wikimedia.org/wikipedia/en/e/ed/Christopher_pike.jpg?20050525010844"
+        },
+        {
+            "id": "1",
+            "name": "James Tiberius Kirk",
+            "origin": "Iowa, United States, Earth",
+            "title": "Cadet / Lieutenant / Commander / Captain / Admiral",
+            "position" : "Commanding officer",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Star_Trek_William_Shatner.JPG/220px-Star_Trek_William_Shatner.JPG"
+        },
+        {
+            "id": "2",
+            "name": "Spock",
+            "origin": "Vulcan",
+            "title": "Ensign / Lieutenant / Lieutenant commander / Commander / Captain / Ambassador",
+            "position" : "Second officer/Science officer / Executive officer / Commanding officer / Federation Ambassador-at-Large",
+            "race": "Vulcan",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Leonard_Nimoy_as_Spock_1967.jpg/220px-Leonard_Nimoy_as_Spock_1967.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Nyota Uhura",
+            "origin": "Lake Simbi Nyaima, Kenya, Earth",
+            "title": "Captain / Fleet Captain / Admiral (Alternate Universe)",
+            "position" : "Linguistics / Cryptographer / Philologist",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg/220px-Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Christopher Pike",
+            "origin": "California, United States, Earth",
+            "title": "Lieutenant / Commander / Captain",
+            "position" : "Commanding officer",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/e/ed/Christopher_pike.jpg?20050525010844"
         }
     ]
 }
